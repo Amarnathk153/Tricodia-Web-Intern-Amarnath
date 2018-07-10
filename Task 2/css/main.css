@@ -69,3 +69,7 @@ h1 {
 .dropdown:hover .dropdown-content {
     display: block; 
 }
+
+#para1{text-align:center;
+			background:white;
+			margin: 0}
