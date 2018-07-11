@@ -1,0 +1,6 @@
+body{
+background-color: rgb(50,50,50);}
+img{display: block;	border-radius: 2%;	opacity: 0.7; filter:alpha(opacity=70);	margin-left: auto;		margin-right: auto;		max width: 100%;	height: auto;}
+
+h1{color: #FAEBD7;		text-align: center;		text-shadow: 1px;		font-style:italic		font-size:400%;		font-family: "Lucida Console";}
+p{color: #FFFFFF;	text-align: justify;	margin: 0;	font-style: oblique;		font-size: 130%;		font-family: "Times New Roman", Times, serif;}
