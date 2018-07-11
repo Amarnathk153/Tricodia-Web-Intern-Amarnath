@@ -9,7 +9,7 @@ h1 {
     margin-left: 20px;
 }
 .tab{
-	background-color: #333;
+	background-color: black;
 	overflow: hidden;
 	width: 100%;
 	}
@@ -22,10 +22,10 @@ h1 {
 	font-size: 17px;
 }
 .tab a:hover ,.dropdown:hover .dropbtn{
-    background-color: #ddd;
+    background-color: #3A5FCD;
 }
 .tab a.active {
-	background-color: #3f2121;
+	background-color: #00688B;
 }
 .tab-right {
 	float: right;
