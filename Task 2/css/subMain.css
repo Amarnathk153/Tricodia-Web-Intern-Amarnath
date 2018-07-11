@@ -2,3 +2,11 @@ h2 {
     color: red;
     margin-left: 20px;
 }
+.bg {
+   	 		background-image: url("Pics/pic4.jpg");
+   			height: 100%; 
+   		    position: relative;	
+    		background-position: center;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+  }

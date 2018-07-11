@@ -1,5 +1,5 @@
 body{		
-    	background-image: url("/Pics/p1.jpg");
+    	background-image: url('/Pics/p1.jpg');
     	height: 100%;
     	margin: 0;
 		}
@@ -9,7 +9,7 @@ h1 {
     margin-left: 20px;
 }
 .tab{
-	background-color: #333;
+	background-color: black;
 	overflow: hidden;
 	width: 100%;
 	}
@@ -22,10 +22,10 @@ h1 {
 	font-size: 17px;
 }
 .tab a:hover ,.dropdown:hover .dropbtn{
-    background-color: #ddd;
+    background-color: #3A5FCD;
 }
 .tab a.active {
-	background-color: #3f2121;
+	background-color: #00688B;
 }
 .tab-right {
 	float: right;
@@ -71,8 +71,11 @@ h1 {
     display: block; 
 }
 
-#para1{text-align:center;
-			background:#62A2C4;
-			margin: 0;
-			padding: 10px 10px;
+#para1{
+	text-align:center;
+	background-image: url('Pics/wall.png');
+	background-size: cover;
+	margin: 0;
+	
+	padding: 10px 10px;
 }
