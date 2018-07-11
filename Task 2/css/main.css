@@ -1,5 +1,5 @@
 body{		
-    	background-image: url("/Pics/p1.jpg");
+    	background-image: url('/Pics/p1.jpg');
     	height: 100%;
     	margin: 0;
 		}
@@ -72,7 +72,7 @@ h1 {
 }
 
 #para1{text-align:center;
-			background:#62A2C4;
-			margin: 0;
-			padding: 10px 10px;
+		background-image: url('Pics/wall.png');
+		margin: 0;
+		padding: 10px 10px;
 }
