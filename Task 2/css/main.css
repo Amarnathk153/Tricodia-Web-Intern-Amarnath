@@ -71,8 +71,11 @@ h1 {
     display: block; 
 }
 
-#para1{text-align:center;
-		background-image: url('Pics/wall.png');
-		margin: 0;
-		padding: 10px 10px;
+#para1{
+	text-align:center;
+	background-image: url('Pics/wall.png');
+	border-image-width: 100%;
+	margin: 0;
+	
+	padding: 10px 10px;
 }
