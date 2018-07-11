@@ -9,4 +9,23 @@ h2 {
     		background-position: center;
     		background-repeat: no-repeat;
     		background-size: cover;
-  }
+}
+.text-block {
+    		position: absolute;
+    		background: rgba(193, 240, 246, 0.85);
+    		color: black;
+    		padding-left: 20px;
+    		padding-right: 20px;
+    		width: 62%;
+    		font-size: 30;
+    		left: 35%;
+    		font-weight: bold;
+    		top: 15px;
+}
+
+#para2{
+	color: black;
+	font-weight: normal;
+	font-size: 21;
+
+}
