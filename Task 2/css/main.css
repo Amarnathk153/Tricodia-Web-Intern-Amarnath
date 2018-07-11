@@ -74,7 +74,7 @@ h1 {
 #para1{
 	text-align:center;
 	background-image: url('Pics/wall.png');
-	border-image-width: 100%;
+	background-size: cover;
 	margin: 0;
 	
 	padding: 10px 10px;
