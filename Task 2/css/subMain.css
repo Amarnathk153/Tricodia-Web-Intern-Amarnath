@@ -9,10 +9,9 @@ h2 {
     		background-position: center;
     		background-repeat: no-repeat;
     		background-size: cover;
-
-margin: 0;
+    		margin: 0;
   }
-}
+
 .text-block {
     		position: absolute;
     		background: rgba(193, 240, 246, 0.85);
