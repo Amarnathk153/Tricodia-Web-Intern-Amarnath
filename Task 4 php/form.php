@@ -22,19 +22,19 @@
 <div align=right>
 <a href="form.html" class=button>Home</a></div><br>
 <p><b>
-First Name: <?php echo $_GET["first_name"]; ?><br><br>
-Last Name: <?php echo $_GET["last_name"]; ?><br><br>
-Gender: <?php echo $_GET["Gender"]; ?><br><br>
-Email address: <?php echo $_GET["email"]; ?><br><br>
-Phone: <?php echo $_GET["phone"]; ?><br><br>
-Address: <?php echo $_GET["address"]; ?><br><br>
-City: <?php echo $_GET["city"]; ?><br><br>
-State/Union Territory: <?php echo $_GET["state"]; ?><br><br>
-Zip Code: <?php echo $_GET["zip"]; ?><br><br>
-Website or domain name: <?php echo $_GET["website"]; ?><br><br>
+First Name: <?php echo $_POST["first_name"]; ?><br><br>
+Last Name: <?php echo $_POST["last_name"]; ?><br><br>
+Gender: <?php echo $_POST["Gender"]; ?><br><br>
+Email address: <?php echo $_POST["email"]; ?><br><br>
+Phone: <?php echo $_POST["phone"]; ?><br><br>
+Address: <?php echo $_POST["address"]; ?><br><br>
+City: <?php echo $_POST["city"]; ?><br><br>
+State/Union Territory: <?php echo $_POST["state"]; ?><br><br>
+Zip Code: <?php echo $_POST["zip"]; ?><br><br>
+Website or domain name: <?php echo $_POST["website"]; ?><br><br>
 </b>
 </p>
-<div class="alert alert-success" role="alert" id="success_message"><big>Successfuly uploaded <i class="glyphicon glyphicon-thumbs-up"></i><br>  We will get back to you shortly.</div>
+<div class="alert alert-success" role="alert" id="success_message"><big>Successfuly uploaded <i class="glyphicon glyphicon-thumbs-up"></i><br>  We will POST back to you shortly.</div>
 </div>
 </body>
 </html>
