@@ -87,7 +87,7 @@ if ($result->num_rows > 0) {
         echo "<html>
         <head>
 <title>form</title>
-<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel='stylesheet' href='./css/bootstrap.min.css'>
 <style>
 .button {
     background-color: #4CAF50;
@@ -105,12 +105,12 @@ if ($result->num_rows > 0) {
 </head>
 <body>
     
-<div class="container">
+<div class='container'>
 <legend>Join Us Today!</legend>
 <div align=right>
-<a href="index.html" class=button>Home</a></div><br>
-<p align="center"><b>
-    <big>HELLO <?php echo $_POST["first_name"]; ?> <?php echo $_POST["last_name"]; ?>
+<a href='index.html' class=button>Home</a></div><br>
+<p align='center'><b>
+    <big>
 <br>Please check your details before joining</big></b></p>
 <br><br> 
 <p><b>
@@ -126,11 +126,11 @@ Zip Code: " . $row["zip"]. "<br><br>
 Website or domain name: " . $row["website"]. "<br><br>
 </b>
 </p>
-<form class="well form-horizontal" action="data.php" method="POST"  id="join_form">
-    <div class="form-group">
-  <label class="col-md-4 control-label"></label>
-  <div class="col-md-4">
-    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+<form class='well form-horizontal' action='data.php' method='POST'  id='join_form'>
+    <div class='form-group'>
+  <label class='col-md-4 control-label'></label>
+  <div class='col-md-4'>
+    <button type='submit' class='btn btn-warning' >Send <span class='glyphicon glyphicon-send'></span></button>
   </div>
 </div>
 </form>
