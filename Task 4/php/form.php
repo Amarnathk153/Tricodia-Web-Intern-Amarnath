@@ -20,7 +20,7 @@
 <div class="container">
 <legend>Join Us Today!</legend>
 <div align=right>
-<a href="form.html" class=button>Home</a></div><br>
+<a href="index.html" class=button>Home</a></div><br>
 <p><b>
 First Name: <?php echo $_POST["first_name"]; ?><br><br>
 Last Name: <?php echo $_POST["last_name"]; ?><br><br>
@@ -34,7 +34,7 @@ Zip Code: <?php echo $_POST["zip"]; ?><br><br>
 Website or domain name: <?php echo $_POST["website"]; ?><br><br>
 </b>
 </p>
-<div class="alert alert-success" role="alert" id="success_message"><big>Successfuly uploaded <i class="glyphicon glyphicon-thumbs-up"></i><br>  We will POST back to you shortly.</div>
+<div class="alert alert-success" role="alert" id="success_message"><big>Successfuly uploaded <i class="glyphicon glyphicon-thumbs-up"></i><br>  We will get back to you shortly.</div>
 </div>
 </body>
 </html>
