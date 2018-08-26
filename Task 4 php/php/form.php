@@ -6,6 +6,7 @@ $server="localhost";
 $database="accessDB";
 $sql = "CREATE DATABASE $database";
 $first_name=$_POST["first_name"];
+$last_name=$_POST["last_name"];
 $Gender=$_POST["Gender"];
 $email=$_POST["email"];
 $phone=$_POST["phone"];

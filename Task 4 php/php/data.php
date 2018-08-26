@@ -6,16 +6,23 @@
 <body>
 	<?php
 
-if($_COOKIE["user"]=="1"){
+{
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "dfk";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 	$conn->close();
 
 $cookie_name = "user";
 $cookie_value = "2";
 setcookie($cookie_name, $cookie_value, time() + 300, "/"); 
-
-$cookie_name = "id";
-$cookie_value = $last_id;
-setcookie($cookie_name, $cookie_value, time() + 3600, "/"); 
 
 }
 
