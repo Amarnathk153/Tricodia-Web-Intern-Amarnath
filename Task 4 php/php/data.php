@@ -22,7 +22,11 @@ setcookie($cookie_name, $cookie_value, time() + 3600, "/");
 ?>
 
 
+<!-- 
 
+close(); $cookie_name = "user"; $cookie_value = "2"; setcookie($cookie_name, $cookie_value, time() + 200, "/"); $cookie_name = "id"; $cookie_value = $last_id; setcookie($cookie_name, $cookie_value, time() + 3600, "/"); } ?>
+
+ -->
 
 
 
