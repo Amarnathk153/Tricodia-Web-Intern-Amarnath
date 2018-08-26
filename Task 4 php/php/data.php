@@ -1,5 +1,5 @@
 <html>
-<title>data</title>
+<title>succefully uploaded</title>
 <head><link rel="stylesheet" href="./css/bootstrap.min.css">
 	<meta http-equiv="refresh" content="4;URL='index.html'">
 	</head>
